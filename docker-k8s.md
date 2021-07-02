@@ -1,6 +1,6 @@
 ## DCA
   ### Docker Architecture (Engine)
-   - Setup on ubuntu and centos
+         - Setup on ubuntu and centos
 	 - Basic container operation
 	 - inspecting container
 	 - stopping and removing container
@@ -11,7 +11,7 @@
 	 - Docker debug mode
 	 - Logging drivers 
   ### Docker Images
-  - Docker Images registry
+        - Docker Images registry
 	- image tags and naming conventions 
 	- authenticating against registries
 	- inspecting and removing docker image
@@ -22,19 +22,19 @@
 	- COPY vs ADD  & CM vs entrypoint
 	- Dockerfile best practices
   ### Docker Security
-    - namespace and capabilities
-	  - cgroups
-	  - resource limits cpu and memory
+        - namespace and capabilities
+	- cgroups
+	- resource limits cpu and memory
  ### Docker networking
-    -  Docker networking Commands
-	  - namespaces and networking deep dive
+        -  Docker networking Commands
+	- namespaces and networking deep dive
  ### Docker Storage
-    - Storage and Volume
+        - Storage and Volume
  ### Docker-compose
-    -  Microservice vs monolithic
-	  - example of voting application 
+        -  Microservice vs monolithic
+	- example of voting application 
  ### Docker swarm
-   - Container orchestration
+         - Container orchestration
 	 - swarm architecture
 	 - swarm setup with 2 node cluster
 	 - swarm operations
@@ -48,7 +48,7 @@
 	 - swarm service discovery
 	 - Docker stack
  ### Kubernetes
-   -  kubernetes architecture
+         -  kubernetes architecture
 	 -  pods
 	 - pods with yaml and cmd
 	 - replication controllers, replica setup
@@ -73,13 +73,13 @@
 	  - garbage collection
 ## Kubernetes:
   ### Cluster architecture
-    - Manage role based access control (RBAC)
+          - Manage role based access control (RBAC)
 	  - Use Kubeadm to install a basic cluster
 	  - Manage a highly-available Kubernetes cluster
 	  - Provision underlying infrastructure to deploy a Kubernetes cluster
 	  - Perform a version upgrade on a Kubernetes cluster using Kubeadm
 	  - Implement etcd backup and restore
-    - Workloads & scheduling
+  ### Workloads & scheduling
 	  - Understand deployments and how to perform rolling update and rollbacks
 	  - Use ConfigMaps and Secrets to configure applications
 	  - Know how to scale applications
@@ -87,14 +87,14 @@
 	  - Understand how resource limits can affect Pod scheduling
 	  - Awareness of manifest management and common templating tools
   ### Services & networking
-  - Understand host networking configuration on the cluster nodes
+        - Understand host networking configuration on the cluster nodes
 	- Understand connectivity between Pods
 	- Understand ClusterIP, NodePort, LoadBalancer service types and endpoints
 	- Know how to use Ingress controllers and Ingress resources
 	- Know how to configure and use CoreDNS
 	- Choose an appropriate container network interface plugin
   ### Storage
-  - Understand storage classes, persistent volumes
+        - Understand storage classes, persistent volumes
 	- Understand volume mode, access modes and reclaim policies for volumes
 	- Understand persistent volume claims primitive
 	- Know how to configure applications with persistent storage
@@ -114,18 +114,18 @@
 		- security contexts
 		- defining application resource requirements
 		- understanding service accounts
-###	multicontainer pods
+### multicontainer pods
 		- understanding multicontainer pod design pattern( adapter, sidecar, ambassador )
-###	Observability
-	-	liveness readiness
-	-	container logging
-	-	application monitoring
-	-	debugging applications
-###	POD Design
-	-	deployments and rolling updates
-	-	jobs and cronjobs
-	-	use of labels and selectors and annotations
-###	State persistent
-	-	PV and PVC and storage class
-###	Services and networking
-	-	servicesnetwork polices
+### Observability
+	        - liveness readiness
+	        - container logging
+	        - application monitoring
+	        - debugging applications
+### POD Design
+	- deployments and rolling updates
+	- jobs and cronjobs
+	- use of labels and selectors and annotations
+### State persistent
+	- PV and PVC and storage class
+### Services and networking
+	- servicesnetwork polices
