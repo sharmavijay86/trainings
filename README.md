@@ -1,2 +1,2 @@
 # Trainings
-- [Docker and Kubernetes Content](docker-k8s.md)
+- [Docker and Kubernetes Content](docs/docker-k8s.md)
